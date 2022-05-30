@@ -1,0 +1,94 @@
+[Paddle2ONNX] Start to parse PaddlePaddle model(model file: ./tnews_pruned_infer_model/float32.pdmodel, parameters file: ./tnews_pruned_infer_model/float32.pdiparams
+[Paddle2ONNX] Model loaded, start to converting...
+[Paddle2ONNX] Use opset_version = 13 for ONNX export.
+[Paddle2ONNX] PaddlePaddle model is exported as ONNX format now.
+# Successfully load C funcs for acceleration.
+`jio.help()` is provided to search how to use jio functions.
+Or browse `https://github.com/dongrixinyu/JioNLP` to get help.
+程序已经退出，在1页......
+Using 31 elements filter
+Using 485 elements filter
+>>> [InferBackend] Creating Engine ...
+>>> [InferBackend] Engine Created ...
+Find 1 keywords, 2 key structures
+Find 2 keywords, 0 key structures
+Find 1 keywords, 0 key structures
+Find 1 keywords, 2 key structures
+Find 1 keywords, 1 key structures
+Find 1 keywords, 0 key structures
+Find 1 keywords, 0 key structures
+Find 1 keywords, 2 key structures
+Find 1 keywords, 0 key structures
+Find 1 keywords, 0 key structures
+Find 0 keywords, 1 key structures
+Find 0 keywords, 0 key structures
+Find 2 keywords, 2 key structures
+Find 1 keywords, 0 key structures
+Find 0 keywords, 0 key structures
+Find 1 keywords, 0 key structures
+Find 1 keywords, 0 key structures
+Find 0 keywords, 1 key structures
+Find 1 keywords, 1 key structures
+Find 1 keywords, 2 key structures
+Find 0 keywords, 0 key structures
+Find 0 keywords, 0 key structures
+Find 1 keywords, 0 key structures
+Find 0 keywords, 0 key structures
+Find 2 keywords, 0 key structures
+Find 0 keywords, 0 key structures
+Find 1 keywords, 1 key structures
+Find 1 keywords, 0 key structures
+Find 1 keywords, 0 key structures
+Find 2 keywords, 0 key structures
+Find 2 keywords, 0 key structures
+Find 1 keywords, 1 key structures
+Find 1 keywords, 0 key structures
+Find 1 keywords, 0 key structures
+Find 1 keywords, 0 key structures
+Find 2 keywords, 0 key structures
+Find 2 keywords, 1 key structures
+Find 1 keywords, 0 key structures
+Find 1 keywords, 1 key structures
+Find 1 keywords, 0 key structures
+input data length 40
+新疆乌鲁木齐市本轮疫情涉及婚宴活动场所和中小学校 ['keywords:set()', 'grammer:4', 'class:news_edu', 'confidence:0.819301426410675']
+(聚焦疫情防控)北京:5月27日至29日15时无新增社会面病例 ['keywords:set()', 'grammer:4', 'class:news_world', 'confidence:0.28094586730003357']
+上海疫情持续向稳向好 外出市民如何做好防护? ['keywords:set()', 'grammer:2', 'class:news_travel', 'confidence:0.5215109586715698']
+江西疾控发布新冠肺炎疫情紧急风险提示 ['keywords:set()', 'grammer:4', 'class:news_finance', 'confidence:0.7360038757324219']
+图个明白|北京连续2天无社会面新增病例 疫情已得到有效控制 ['keywords:set()', 'grammer:3', 'class:news_finance', 'confidence:0.33990246057510376']
+北京本轮疫情已得到有效控制 ['keywords:set()', 'grammer:2', 'class:news_finance', 'confidence:0.39905667304992676']
+新增病例数持续下降!北京本轮疫情已得到有效控制 ['keywords:set()', 'grammer:2', 'class:news_finance', 'confidence:0.5514299869537354']
+沈阳通报最新疫情防控情况! ['keywords:set()', 'grammer:4', 'class:news_edu', 'confidence:0.21266691386699677']
+北京连续2天无新增社会面病例,疫情得到有效控制 ['keywords:set()', 'grammer:2', 'class:news_finance', 'confidence:0.34969714283943176']
+北京疫情最新通报丨连续2天社会面无新增!北京高考具体安排出炉 ['keywords:set()', 'grammer:2', 'class:news_edu', 'confidence:0.9504328966140747']
+聚焦|众志成城抗疫情,我们在行动!(四十三 ) ['keywords:set()', 'grammer:1', 'class:news_travel', 'confidence:0.3062322437763214']
+漫评|科学防治,筑牢疫情防控坚实防线 ['keywords:set()', 'grammer:0', 'class:news_agriculture', 'confidence:0.34577953815460205']
+北京本轮疫情已得到有效控制 29日起分区分级动态实施社会面防控措施 ['keywords:set()', 'grammer:6', 'class:news_finance', 'confidence:0.28670063614845276']
+伊拉克暴发“刚果热”疫情 病例数量达43年来最高 ['keywords:set()', 'grammer:2', 'class:news_world', 'confidence:0.8531872034072876']
+疫情形势总体向好 严防死守防止反弹 ['keywords:set()', 'grammer:0', 'class:news_finance', 'confidence:0.36878642439842224']
+伊拉克暴发“刚果热”疫情 病例数量达43年来最高 ['keywords:set()', 'grammer:2', 'class:news_world', 'confidence:0.8531872034072876']
+北京疫情最新通报:新增本土感染者7例,两地调整为低风险地区 ['keywords:set()', 'grammer:2', 'class:news_finance', 'confidence:0.34081923961639404']
+来了!本市建筑工地常态化疫情防控和复工复产相关问答! ['keywords:set()', 'grammer:1', 'class:news_house', 'confidence:0.28413206338882446']
+北京教委:针对7种更加特殊的疫情应急场景 拿出详细工作流程和工作... ['keywords:set()', 'grammer:3', 'class:news_edu', 'confidence:0.8359261751174927']
+每经24点 | 西安发布高考和端午期间疫情防控措施;福建福州一渔辅... ['keywords:set()', 'grammer:4', 'class:news_edu', 'confidence:0.9154583811759949']
+最新海外疫情:新冠感染超5.25亿 累计接种新冠疫苗超118.07亿次 ['keywords:set()', 'grammer:0', 'class:news_world', 'confidence:0.526138424873352']
+近几日全国疫情继续稳定下降、收取快递时应该怎样应对和处理... ['keywords:set()', 'grammer:0', 'class:news_tech', 'confidence:0.49446722865104675']
+新华全媒+丨携手战疫情 迎难保增长——西部工业重镇陕西宝鸡纾困... ['keywords:set()', 'grammer:2', 'class:news_finance', 'confidence:0.5470388531684875']
+最新疫情:全国新冠累计确诊224015例 累计接种新冠疫苗超33.78亿剂... ['keywords:set()', 'grammer:0', 'class:news_world', 'confidence:0.5309156775474548']
+上海正抓紧开展本土疫情流调溯源工作 青浦19日新增病例可能与工地... ['keywords:set()', 'grammer:4', 'class:news_finance', 'confidence:0.31654906272888184']
+居委书记口述:疫情防控下的“困”与“纾” ['keywords:set()', 'grammer:0', 'class:news_agriculture', 'confidence:0.6270342469215393']
+嘉兴发布加强新冠肺炎疫情防控工作的通告(第26号) ['keywords:set()', 'grammer:3', 'class:news_agriculture', 'confidence:0.3722885549068451']
+北京疫情形势总体向好 多区超3天未报告社会面筛查感染者 ['keywords:set()', 'grammer:2', 'class:news_finance', 'confidence:0.4657636284828186']
+北京本轮疫情已有效控制 生产生活逐步恢复 ['keywords:set()', 'grammer:2', 'class:news_agriculture', 'confidence:0.27419066429138184']
+截至5月28日24时江苏新型冠状病毒肺炎疫情最新情况 ['keywords:set()', 'grammer:4', 'class:news_finance', 'confidence:0.4983046054840088']
+面对疫情应考尽考 北京对今年高考做了周密准备 ['keywords:set()', 'grammer:4', 'class:news_edu', 'confidence:0.9689087867736816']
+北京本土新增病例数连续六日下降 本轮疫情已得到有效控制 ['keywords:set()', 'grammer:3', 'class:news_world', 'confidence:0.38335052132606506']
+北京本轮疫情已有效控制 生产生活逐步恢复 ['keywords:set()', 'grammer:2', 'class:news_agriculture', 'confidence:0.27419066429138184']
+伊拉克暴发“刚果热”疫情 病例数量达43年来最高 ['keywords:set()', 'grammer:2', 'class:news_world', 'confidence:0.8531872034072876']
+朝阳:本轮疫情以来已减免房租5171.65万元 ['keywords:set()', 'grammer:2', 'class:news_house', 'confidence:0.7635611295700073']
+天津|疫情,5月21日最新消息,昨日新增确诊病例6例,感染者17例 ['keywords:set()', 'grammer:4', 'class:news_finance', 'confidence:0.37207919359207153']
+江西省—截至2022年5月29日12时已公开的疫情防控政策措施 ['keywords:set()', 'grammer:5', 'class:news_agriculture', 'confidence:0.2806823253631592']
+北京疫情形势总体向好 要严防死守、防止反弹 ['keywords:set()', 'grammer:2', 'class:news_finance', 'confidence:0.4685187041759491']
+上海常务副市长:疫情影响巨大,但上海经济长期向好态势没有变 ['keywords:set()', 'grammer:3', 'class:news_finance', 'confidence:0.8382115960121155']
+北京高考将如期举行,设多类考点应对疫情 ['keywords:set()', 'grammer:2', 'class:news_edu', 'confidence:0.9671422839164734']
+finish in 0.732252836227417

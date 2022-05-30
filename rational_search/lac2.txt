@@ -1,0 +1,54 @@
+[Paddle2ONNX] Start to parse PaddlePaddle model(model file: ./Ernie/tnews_pruned_infer_model/float32.pdmodel, parameters file: ./Ernie/tnews_pruned_infer_model/float32.pdiparams
+[Paddle2ONNX] Model loaded, start to converting...
+[Paddle2ONNX] Use opset_version = 13 for ONNX export.
+[Paddle2ONNX] PaddlePaddle model is exported as ONNX format now.
+# Successfully load C funcs for acceleration.
+`jio.help()` is provided to search how to use jio functions.
+Or browse `https://github.com/dongrixinyu/JioNLP` to get help.
+程序已经退出，在1页......
+Using 31 elements filter
+Using 485 elements filter
+>>> [InferBackend] Creating Engine ...
+>>> [InferBackend] Engine Created ...
+input data length 40
+樊成华主持召开市疫情防控工作领导小组会议 郝艳红出席 ['keywords:set()', 'grammer:3', 'class:news_finance', 'confidence:0.5158246755599976']
+5月29日黑龙江省无新增新冠肺炎疫情信息报告 ['keywords:set()', 'grammer:4', 'class:news_finance', 'confidence:0.6264716386795044']
+医药行业周报:疫情趋于稳定 关注受影响公司恢复情况 ['keywords:set()', 'grammer:1', 'class:news_finance', 'confidence:0.76910799741745']
+台艺人谈疫情却被绿营威胁围剿 朱立伦、赵少康怒批 ['keywords:set()', 'grammer:5', 'class:news_entertainment', 'confidence:0.9197145700454712']
+疫情防控不松懈 审执工作不停歇 ['keywords:set()', 'grammer:0', 'class:news_finance', 'confidence:0.325268417596817']
+北京本轮疫情已得到有效控制 高考和中考相关工作有序推进 ['keywords:set()', 'grammer:3', 'class:news_edu', 'confidence:0.9687367081642151']
+5月30日安徽省报告新冠肺炎疫情情况 ['keywords:set()', 'grammer:6', 'class:news_finance', 'confidence:0.47287651896476746']
+湖南省新型冠状病毒肺炎疫情信息发布 ['keywords:set()', 'grammer:2', 'class:news_finance', 'confidence:0.4969775378704071']
+截至5月29日24时江苏新型冠状病毒肺炎疫情最新情况 ['keywords:set()', 'grammer:4', 'class:news_finance', 'confidence:0.5064147114753723']
+北京新增本土感染者都住哪儿?最新疫情动态汇总来了 ['keywords:set()', 'grammer:4', 'class:news_travel', 'confidence:0.37992700934410095']
+青海省新型冠状病毒感染的肺炎疫情防控处置工作指挥部通告 ['keywords:set()', 'grammer:2', 'class:news_agriculture', 'confidence:0.268523633480072']
+山西省疾控中心提示:主动落实疫情防控措施,做好高考疫情防控 ['keywords:set()', 'grammer:3', 'class:news_edu', 'confidence:0.9521713852882385']
+截至5月29日24时江苏新型冠状病毒肺炎疫情最新情况 ['keywords:set()', 'grammer:4', 'class:news_finance', 'confidence:0.5064147114753723']
+北京疫情得到有效控制 形势稳中向好 ['keywords:set()', 'grammer:2', 'class:news_finance', 'confidence:0.5763348340988159']
+猴痘突袭多国,本轮疫情“零号病人”究竟是何时出现的? ['keywords:set()', 'grammer:1', 'class:news_world', 'confidence:0.6963486671447754']
+源头锁定!猴痘疫情全球蔓延之快、路径不寻常 ['keywords:set()', 'grammer:0', 'class:news_finance', 'confidence:0.3652683198451996']
+新华全媒+丨携手战疫情 迎难保增长——西部工业重镇陕西宝鸡纾困... ['keywords:set()', 'grammer:2', 'class:news_finance', 'confidence:0.5470388531684875']
+5月29日黑龙江省无新增新冠肺炎疫情信息报告 ['keywords:set()', 'grammer:4', 'class:news_finance', 'confidence:0.6264716386795044']
+本市新增报告本土病例数量持续下降疫情向好成果仍需不断巩固 ['keywords:set()', 'grammer:1', 'class:news_finance', 'confidence:0.5974087119102478']
+北京新增本土感染者都住哪儿?最新疫情动态汇总来了 ['keywords:set()', 'grammer:4', 'class:news_travel', 'confidence:0.37992700934410095']
+无锡石油全力打好疫情保供战 ['keywords:set()', 'grammer:3', 'class:news_finance', 'confidence:0.8161177039146423']
+北京疫情最新通报丨连续2天社会面无新增!北京高考具体安排出炉 ['keywords:set()', 'grammer:2', 'class:news_edu', 'confidence:0.9504328966140747']
+5月29日疫情防控最新消息! ['keywords:set()', 'grammer:3', 'class:news_finance', 'confidence:0.2689400613307953']
+全球疫情速读:单日新增确诊42万余例,死亡602例 ['keywords:set()', 'grammer:0', 'class:news_world', 'confidence:0.7208251953125']
+核查| 约翰·霍普金斯大学否认发布过美国疫情数据? ['keywords:set()', 'grammer:4', 'class:news_world', 'confidence:0.6439726948738098']
+科学防治,筑牢疫情防控坚实防线 ['keywords:set()', 'grammer:0', 'class:news_agriculture', 'confidence:0.3859884440898895']
+四川省新型冠状病毒肺炎疫情最新情况(5月30日发布) ['keywords:set()', 'grammer:4', 'class:news_finance', 'confidence:0.37200918793678284']
+嘉兴发布加强新冠肺炎疫情防控工作的通告(第26号) ['keywords:set()', 'grammer:3', 'class:news_agriculture', 'confidence:0.3722885549068451']
+疫情防控不松懈 审执工作不停歇 ['keywords:set()', 'grammer:0', 'class:news_finance', 'confidence:0.325268417596817']
+景俊海:从严从紧落实各项防控措施 坚决把疫情控制在最小范围 ['keywords:set()', 'grammer:2', 'class:news_agriculture', 'confidence:0.5268368721008301']
+世卫组织发言人:猴痘病毒蔓延令人担忧 但疫情可控 ['keywords:set()', 'grammer:2', 'class:news_world', 'confidence:0.7504476308822632']
+济南:今年受疫情影响不能正常偿还住房公贷的,不作逾期处理 ['keywords:set()', 'grammer:4', 'class:news_house', 'confidence:0.5480461120605469']
+交通运输部:关于统筹做好疫情防控和公路应急抢通工作的通知 ['keywords:set()', 'grammer:0', 'class:news_car', 'confidence:0.5624726414680481']
+《疫情期间家庭预防性消毒指导》系列微视频及配套宣传海报发布(二... ['keywords:set()', 'grammer:0', 'class:news_edu', 'confidence:0.31819769740104675']
+每经24点 | 西安发布高考和端午期间疫情防控措施;福建福州一渔辅... ['keywords:set()', 'grammer:4', 'class:news_edu', 'confidence:0.9154583811759949']
+上海市新冠肺炎疫情防控新闻发布会(5月30日) ['keywords:set()', 'grammer:5', 'class:news_finance', 'confidence:0.7887939214706421']
+西安发布端午节和高考期间疫情防控工作的通告 ['keywords:set()', 'grammer:3', 'class:news_edu', 'confidence:0.9464062452316284']
+京津冀三地海关制定疫情期间保通保畅工作措施 ['keywords:set()', 'grammer:3', 'class:news_finance', 'confidence:0.6671046018600464']
+郑州市多措并举高效统筹疫情防控和经济社会发展 ['keywords:set()', 'grammer:2', 'class:news_finance', 'confidence:0.41882896423339844']
+北京新增本土感染者都住哪儿?最新疫情动态汇总来了 ['keywords:set()', 'grammer:4', 'class:news_travel', 'confidence:0.37992700934410095']
+finish in 0.41016149520874023
