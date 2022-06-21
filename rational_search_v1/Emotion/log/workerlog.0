@@ -1,0 +1,256 @@
+/workspace/qiuzihan/anaconda3/envs/nlp/lib/python3.7/site-packages/pandas/compat/numpy/__init__.py:10: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  _nlv = LooseVersion(_np_version)
+/workspace/qiuzihan/anaconda3/envs/nlp/lib/python3.7/site-packages/pandas/compat/numpy/__init__.py:11: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  _np_version_under1p16 = _nlv < LooseVersion("1.16")
+/workspace/qiuzihan/anaconda3/envs/nlp/lib/python3.7/site-packages/pandas/compat/numpy/__init__.py:12: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  _np_version_under1p17 = _nlv < LooseVersion("1.17")
+/workspace/qiuzihan/anaconda3/envs/nlp/lib/python3.7/site-packages/pandas/compat/numpy/__init__.py:13: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  _np_version_under1p18 = _nlv < LooseVersion("1.18")
+/workspace/qiuzihan/anaconda3/envs/nlp/lib/python3.7/site-packages/pandas/compat/numpy/__init__.py:14: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  _np_version_under1p19 = _nlv < LooseVersion("1.19")
+/workspace/qiuzihan/anaconda3/envs/nlp/lib/python3.7/site-packages/pandas/compat/numpy/__init__.py:15: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  _np_version_under1p20 = _nlv < LooseVersion("1.20")
+/workspace/qiuzihan/anaconda3/envs/nlp/lib/python3.7/site-packages/setuptools/_distutils/version.py:351: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  other = LooseVersion(other)
+/workspace/qiuzihan/anaconda3/envs/nlp/lib/python3.7/site-packages/pandas/compat/numpy/function.py:125: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(_np_version) >= LooseVersion("1.17.0"):
+[32m[2022-05-30 17:00:32,468] [    INFO][0m - We are using <class 'paddlenlp.transformers.ernie.modeling.ErnieForSequenceClassification'> to load 'ernie-3.0-base-zh'.[0m
+[32m[2022-05-30 17:00:32,469] [    INFO][0m - Already cached /home/qiuzihan/.paddlenlp/models/ernie-3.0-base-zh/ernie_3.0_base_zh.pdparams[0m
+W0530 17:00:32.470780 1370990 gpu_context.cc:278] Please NOTE: device: 0, GPU Compute Capability: 7.0, Driver API Version: 10.2, Runtime API Version: 10.2
+W0530 17:00:32.475113 1370990 gpu_context.cc:306] device: 0, cuDNN Version: 7.6.
+[32m[2022-05-30 17:00:42,907] [    INFO][0m - We are using <class 'paddlenlp.transformers.ernie.tokenizer.ErnieTokenizer'> to load 'ernie-3.0-base-zh'.[0m
+[32m[2022-05-30 17:00:42,908] [    INFO][0m - Already cached /home/qiuzihan/.paddlenlp/models/ernie-3.0-base-zh/ernie_3.0_base_zh_vocab.txt[0m
+global step 10, epoch: 1, batch: 10, loss: 0.56193, accuracy: 0.60313, speed: 1.71 step/s
+global step 20, epoch: 1, batch: 20, loss: 0.39799, accuracy: 0.70312, speed: 2.44 step/s
+global step 30, epoch: 1, batch: 30, loss: 0.24041, accuracy: 0.74896, speed: 2.30 step/s
+global step 40, epoch: 1, batch: 40, loss: 0.38690, accuracy: 0.77656, speed: 2.15 step/s
+global step 50, epoch: 1, batch: 50, loss: 0.20030, accuracy: 0.79563, speed: 2.23 step/s
+global step 60, epoch: 1, batch: 60, loss: 0.45113, accuracy: 0.80625, speed: 2.13 step/s
+global step 70, epoch: 1, batch: 70, loss: 0.56654, accuracy: 0.82054, speed: 2.27 step/s
+global step 80, epoch: 1, batch: 80, loss: 0.43700, accuracy: 0.82227, speed: 2.18 step/s
+global step 90, epoch: 1, batch: 90, loss: 0.36693, accuracy: 0.82708, speed: 2.09 step/s
+global step 100, epoch: 1, batch: 100, loss: 0.24655, accuracy: 0.83250, speed: 2.11 step/s
+eval loss: 0.23614, accuracy: 0.91833
+[32m[2022-05-30 17:01:39,933] [    INFO][0m - tokenizer config file saved in ./checkpoints/model_100/tokenizer_config.json[0m
+[32m[2022-05-30 17:01:39,934] [    INFO][0m - Special tokens file saved in ./checkpoints/model_100/special_tokens_map.json[0m
+global step 110, epoch: 1, batch: 110, loss: 0.39228, accuracy: 0.82812, speed: 2.10 step/s
+global step 120, epoch: 1, batch: 120, loss: 0.32069, accuracy: 0.83906, speed: 2.05 step/s
+global step 130, epoch: 1, batch: 130, loss: 0.27009, accuracy: 0.84167, speed: 2.08 step/s
+global step 140, epoch: 1, batch: 140, loss: 0.18214, accuracy: 0.84062, speed: 2.15 step/s
+global step 150, epoch: 1, batch: 150, loss: 0.21674, accuracy: 0.84188, speed: 2.09 step/s
+global step 160, epoch: 1, batch: 160, loss: 0.36690, accuracy: 0.84688, speed: 2.12 step/s
+global step 170, epoch: 1, batch: 170, loss: 0.17774, accuracy: 0.85179, speed: 2.03 step/s
+global step 180, epoch: 1, batch: 180, loss: 0.06875, accuracy: 0.85898, speed: 2.21 step/s
+global step 190, epoch: 1, batch: 190, loss: 0.39923, accuracy: 0.86146, speed: 2.06 step/s
+global step 200, epoch: 1, batch: 200, loss: 0.49292, accuracy: 0.86156, speed: 2.09 step/s
+eval loss: 0.25623, accuracy: 0.90167
+[32m[2022-05-30 17:02:38,925] [    INFO][0m - tokenizer config file saved in ./checkpoints/model_200/tokenizer_config.json[0m
+[32m[2022-05-30 17:02:38,925] [    INFO][0m - Special tokens file saved in ./checkpoints/model_200/special_tokens_map.json[0m
+global step 210, epoch: 1, batch: 210, loss: 0.20636, accuracy: 0.86875, speed: 2.10 step/s
+global step 220, epoch: 1, batch: 220, loss: 0.42527, accuracy: 0.87813, speed: 2.06 step/s
+global step 230, epoch: 1, batch: 230, loss: 0.27021, accuracy: 0.87083, speed: 2.07 step/s
+global step 240, epoch: 1, batch: 240, loss: 0.34004, accuracy: 0.87109, speed: 2.08 step/s
+global step 250, epoch: 1, batch: 250, loss: 0.25518, accuracy: 0.87187, speed: 2.10 step/s
+global step 260, epoch: 1, batch: 260, loss: 0.40345, accuracy: 0.87604, speed: 2.10 step/s
+global step 270, epoch: 1, batch: 270, loss: 0.14588, accuracy: 0.88036, speed: 2.11 step/s
+global step 280, epoch: 1, batch: 280, loss: 0.16919, accuracy: 0.87813, speed: 2.08 step/s
+global step 290, epoch: 1, batch: 290, loss: 0.17902, accuracy: 0.87813, speed: 2.02 step/s
+global step 300, epoch: 1, batch: 300, loss: 0.15685, accuracy: 0.87719, speed: 2.22 step/s
+eval loss: 0.19327, accuracy: 0.93083
+[32m[2022-05-30 17:03:37,124] [    INFO][0m - tokenizer config file saved in ./checkpoints/model_300/tokenizer_config.json[0m
+[32m[2022-05-30 17:03:37,124] [    INFO][0m - Special tokens file saved in ./checkpoints/model_300/special_tokens_map.json[0m
+global step 310, epoch: 2, batch: 10, loss: 0.27609, accuracy: 0.89687, speed: 2.14 step/s
+global step 320, epoch: 2, batch: 20, loss: 0.08539, accuracy: 0.90469, speed: 2.04 step/s
+global step 330, epoch: 2, batch: 30, loss: 0.13411, accuracy: 0.91250, speed: 2.08 step/s
+global step 340, epoch: 2, batch: 40, loss: 0.39535, accuracy: 0.91172, speed: 2.09 step/s
+global step 350, epoch: 2, batch: 50, loss: 0.22438, accuracy: 0.91563, speed: 2.15 step/s
+global step 360, epoch: 2, batch: 60, loss: 0.23815, accuracy: 0.91719, speed: 2.05 step/s
+global step 370, epoch: 2, batch: 70, loss: 0.29567, accuracy: 0.91696, speed: 2.12 step/s
+global step 380, epoch: 2, batch: 80, loss: 0.28939, accuracy: 0.91445, speed: 2.06 step/s
+global step 390, epoch: 2, batch: 90, loss: 0.16551, accuracy: 0.91042, speed: 2.06 step/s
+global step 400, epoch: 2, batch: 100, loss: 0.16871, accuracy: 0.90938, speed: 2.10 step/s
+eval loss: 0.20303, accuracy: 0.92667
+[32m[2022-05-30 17:04:36,552] [    INFO][0m - tokenizer config file saved in ./checkpoints/model_400/tokenizer_config.json[0m
+[32m[2022-05-30 17:04:36,552] [    INFO][0m - Special tokens file saved in ./checkpoints/model_400/special_tokens_map.json[0m
+global step 410, epoch: 2, batch: 110, loss: 0.07062, accuracy: 0.91250, speed: 2.12 step/s
+global step 420, epoch: 2, batch: 120, loss: 0.22358, accuracy: 0.90156, speed: 2.08 step/s
+global step 430, epoch: 2, batch: 130, loss: 0.11153, accuracy: 0.90104, speed: 2.04 step/s
+global step 440, epoch: 2, batch: 140, loss: 0.10304, accuracy: 0.90938, speed: 2.20 step/s
+global step 450, epoch: 2, batch: 150, loss: 0.39559, accuracy: 0.90687, speed: 2.01 step/s
+global step 460, epoch: 2, batch: 160, loss: 0.15135, accuracy: 0.90260, speed: 2.09 step/s
+global step 470, epoch: 2, batch: 170, loss: 0.12531, accuracy: 0.90134, speed: 2.13 step/s
+global step 480, epoch: 2, batch: 180, loss: 0.16080, accuracy: 0.90391, speed: 2.07 step/s
+global step 490, epoch: 2, batch: 190, loss: 0.32170, accuracy: 0.89861, speed: 2.16 step/s
+global step 500, epoch: 2, batch: 200, loss: 0.18329, accuracy: 0.89969, speed: 2.05 step/s
+eval loss: 0.19666, accuracy: 0.93167
+[32m[2022-05-30 17:05:35,267] [    INFO][0m - tokenizer config file saved in ./checkpoints/model_500/tokenizer_config.json[0m
+[32m[2022-05-30 17:05:35,267] [    INFO][0m - Special tokens file saved in ./checkpoints/model_500/special_tokens_map.json[0m
+global step 510, epoch: 2, batch: 210, loss: 0.05925, accuracy: 0.89687, speed: 2.11 step/s
+global step 520, epoch: 2, batch: 220, loss: 0.19567, accuracy: 0.88594, speed: 2.10 step/s
+global step 530, epoch: 2, batch: 230, loss: 0.06749, accuracy: 0.89792, speed: 2.27 step/s
+global step 540, epoch: 2, batch: 240, loss: 0.20969, accuracy: 0.89609, speed: 2.05 step/s
+global step 550, epoch: 2, batch: 250, loss: 0.16184, accuracy: 0.89250, speed: 2.20 step/s
+global step 560, epoch: 2, batch: 260, loss: 0.16794, accuracy: 0.89687, speed: 2.19 step/s
+global step 570, epoch: 2, batch: 270, loss: 0.25211, accuracy: 0.89955, speed: 2.15 step/s
+global step 580, epoch: 2, batch: 280, loss: 0.12690, accuracy: 0.89727, speed: 2.06 step/s
+global step 590, epoch: 2, batch: 290, loss: 0.29043, accuracy: 0.89479, speed: 2.18 step/s
+global step 600, epoch: 2, batch: 300, loss: 0.20138, accuracy: 0.89406, speed: 2.09 step/s
+eval loss: 0.17947, accuracy: 0.93917
+[32m[2022-05-30 17:06:33,793] [    INFO][0m - tokenizer config file saved in ./checkpoints/model_600/tokenizer_config.json[0m
+[32m[2022-05-30 17:06:33,793] [    INFO][0m - Special tokens file saved in ./checkpoints/model_600/special_tokens_map.json[0m
+global step 610, epoch: 3, batch: 10, loss: 0.14735, accuracy: 0.91250, speed: 2.00 step/s
+global step 620, epoch: 3, batch: 20, loss: 0.18957, accuracy: 0.90312, speed: 2.10 step/s
+global step 630, epoch: 3, batch: 30, loss: 0.04432, accuracy: 0.90833, speed: 2.04 step/s
+global step 640, epoch: 3, batch: 40, loss: 0.06425, accuracy: 0.91719, speed: 2.14 step/s
+global step 650, epoch: 3, batch: 50, loss: 0.05072, accuracy: 0.92625, speed: 2.08 step/s
+global step 660, epoch: 3, batch: 60, loss: 0.21206, accuracy: 0.93385, speed: 2.12 step/s
+global step 670, epoch: 3, batch: 70, loss: 0.07031, accuracy: 0.93616, speed: 2.07 step/s
+global step 680, epoch: 3, batch: 80, loss: 0.10589, accuracy: 0.93945, speed: 2.08 step/s
+global step 690, epoch: 3, batch: 90, loss: 0.13273, accuracy: 0.93889, speed: 2.08 step/s
+global step 700, epoch: 3, batch: 100, loss: 0.19307, accuracy: 0.94250, speed: 2.12 step/s
+eval loss: 0.20565, accuracy: 0.94333
+[32m[2022-05-30 17:07:33,140] [    INFO][0m - tokenizer config file saved in ./checkpoints/model_700/tokenizer_config.json[0m
+[32m[2022-05-30 17:07:33,141] [    INFO][0m - Special tokens file saved in ./checkpoints/model_700/special_tokens_map.json[0m
+global step 710, epoch: 3, batch: 110, loss: 0.25321, accuracy: 0.97188, speed: 2.19 step/s
+global step 720, epoch: 3, batch: 120, loss: 0.17045, accuracy: 0.97188, speed: 2.17 step/s
+global step 730, epoch: 3, batch: 130, loss: 0.18819, accuracy: 0.96667, speed: 2.08 step/s
+global step 740, epoch: 3, batch: 140, loss: 0.19866, accuracy: 0.96953, speed: 2.09 step/s
+global step 750, epoch: 3, batch: 150, loss: 0.11937, accuracy: 0.96750, speed: 2.13 step/s
+global step 760, epoch: 3, batch: 160, loss: 0.02315, accuracy: 0.96667, speed: 2.09 step/s
+global step 770, epoch: 3, batch: 170, loss: 0.25451, accuracy: 0.96562, speed: 2.18 step/s
+global step 780, epoch: 3, batch: 180, loss: 0.06260, accuracy: 0.96406, speed: 2.21 step/s
+global step 790, epoch: 3, batch: 190, loss: 0.05982, accuracy: 0.96354, speed: 2.03 step/s
+global step 800, epoch: 3, batch: 200, loss: 0.05544, accuracy: 0.96188, speed: 2.15 step/s
+eval loss: 0.18037, accuracy: 0.94917
+[32m[2022-05-30 17:08:31,729] [    INFO][0m - tokenizer config file saved in ./checkpoints/model_800/tokenizer_config.json[0m
+[32m[2022-05-30 17:08:31,729] [    INFO][0m - Special tokens file saved in ./checkpoints/model_800/special_tokens_map.json[0m
+global step 810, epoch: 3, batch: 210, loss: 0.05991, accuracy: 0.96250, speed: 2.01 step/s
+global step 820, epoch: 3, batch: 220, loss: 0.14074, accuracy: 0.95469, speed: 2.07 step/s
+global step 830, epoch: 3, batch: 230, loss: 0.09864, accuracy: 0.95833, speed: 2.13 step/s
+global step 840, epoch: 3, batch: 240, loss: 0.07255, accuracy: 0.96094, speed: 2.17 step/s
+global step 850, epoch: 3, batch: 250, loss: 0.20772, accuracy: 0.96188, speed: 2.10 step/s
+global step 860, epoch: 3, batch: 260, loss: 0.26616, accuracy: 0.95990, speed: 2.14 step/s
+Traceback (most recent call last):
+  File "train.py", line 223, in <module>
+    do_train()
+  File "train.py", line 195, in do_train
+    loss.backward()
+  File "/workspace/qiuzihan/anaconda3/envs/nlp/lib/python3.7/site-packages/decorator.py", line 232, in fun
+    return caller(func, *(extras + args), **kw)
+  File "/workspace/qiuzihan/anaconda3/envs/nlp/lib/python3.7/site-packages/paddle/fluid/wrapped_decorator.py", line 25, in __impl__
+    return wrapped_func(*args, **kwargs)
+  File "/workspace/qiuzihan/anaconda3/envs/nlp/lib/python3.7/site-packages/paddle/fluid/framework.py", line 434, in __impl__
+    return func(*args, **kwargs)
+  File "/workspace/qiuzihan/anaconda3/envs/nlp/lib/python3.7/site-packages/paddle/fluid/dygraph/varbase_patch_methods.py", line 292, in backward
+    framework._dygraph_tracer())
+OSError: (External) ResourceExhaustedError: 
+
+Out of memory error on GPU 0. Cannot allocate 96.000000MB memory on GPU 0, 11.723938GB memory has been allocated and available memory is only 61.375000MB.
+
+Please check whether there is any other process using GPU 0.
+1. If yes, please stop them, or start PaddlePaddle on another GPU.
+2. If no, please decrease the batch size of your model. 
+If the above ways do not solve the out of memory problem, you can try to use CUDA managed memory. The command is `export FLAGS_use_cuda_managed_memory=false`.
+ (at /paddle/paddle/fluid/memory/allocation/cuda_allocator.cc:87)
+ (at /paddle/paddle/fluid/imperative/basic_engine.cc:586)
+
+/workspace/qiuzihan/anaconda3/envs/nlp/lib/python3.7/site-packages/pandas/compat/numpy/__init__.py:10: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  _nlv = LooseVersion(_np_version)
+/workspace/qiuzihan/anaconda3/envs/nlp/lib/python3.7/site-packages/pandas/compat/numpy/__init__.py:11: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  _np_version_under1p16 = _nlv < LooseVersion("1.16")
+/workspace/qiuzihan/anaconda3/envs/nlp/lib/python3.7/site-packages/pandas/compat/numpy/__init__.py:12: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  _np_version_under1p17 = _nlv < LooseVersion("1.17")
+/workspace/qiuzihan/anaconda3/envs/nlp/lib/python3.7/site-packages/pandas/compat/numpy/__init__.py:13: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  _np_version_under1p18 = _nlv < LooseVersion("1.18")
+/workspace/qiuzihan/anaconda3/envs/nlp/lib/python3.7/site-packages/pandas/compat/numpy/__init__.py:14: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  _np_version_under1p19 = _nlv < LooseVersion("1.19")
+/workspace/qiuzihan/anaconda3/envs/nlp/lib/python3.7/site-packages/pandas/compat/numpy/__init__.py:15: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  _np_version_under1p20 = _nlv < LooseVersion("1.20")
+/workspace/qiuzihan/anaconda3/envs/nlp/lib/python3.7/site-packages/setuptools/_distutils/version.py:351: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  other = LooseVersion(other)
+/workspace/qiuzihan/anaconda3/envs/nlp/lib/python3.7/site-packages/pandas/compat/numpy/function.py:125: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(_np_version) >= LooseVersion("1.17.0"):
+usage: train.py [-h] [--save_dir SAVE_DIR] [--dataset {chnsenticorp,xnli_cn}]
+                [--max_seq_length MAX_SEQ_LENGTH] [--batch_size BATCH_SIZE]
+                [--learning_rate LEARNING_RATE] [--weight_decay WEIGHT_DECAY]
+                [--epochs EPOCHS] [--warmup_proportion WARMUP_PROPORTION]
+                [--valid_steps VALID_STEPS] [--save_steps SAVE_STEPS]
+                [--logging_steps LOGGING_STEPS]
+                [--init_from_ckpt INIT_FROM_CKPT] [--seed SEED]
+                [--device {cpu,gpu,xpu,npu}] [--use_amp USE_AMP]
+                [--scale_loss SCALE_LOSS]
+train.py: error: unrecognized arguments: init_from_ckpt checkpoints/model_800/model_state.pdparams
+/workspace/qiuzihan/anaconda3/envs/nlp/lib/python3.7/site-packages/pandas/compat/numpy/__init__.py:10: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  _nlv = LooseVersion(_np_version)
+/workspace/qiuzihan/anaconda3/envs/nlp/lib/python3.7/site-packages/pandas/compat/numpy/__init__.py:11: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  _np_version_under1p16 = _nlv < LooseVersion("1.16")
+/workspace/qiuzihan/anaconda3/envs/nlp/lib/python3.7/site-packages/pandas/compat/numpy/__init__.py:12: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  _np_version_under1p17 = _nlv < LooseVersion("1.17")
+/workspace/qiuzihan/anaconda3/envs/nlp/lib/python3.7/site-packages/pandas/compat/numpy/__init__.py:13: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  _np_version_under1p18 = _nlv < LooseVersion("1.18")
+/workspace/qiuzihan/anaconda3/envs/nlp/lib/python3.7/site-packages/pandas/compat/numpy/__init__.py:14: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  _np_version_under1p19 = _nlv < LooseVersion("1.19")
+/workspace/qiuzihan/anaconda3/envs/nlp/lib/python3.7/site-packages/pandas/compat/numpy/__init__.py:15: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  _np_version_under1p20 = _nlv < LooseVersion("1.20")
+/workspace/qiuzihan/anaconda3/envs/nlp/lib/python3.7/site-packages/setuptools/_distutils/version.py:351: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  other = LooseVersion(other)
+/workspace/qiuzihan/anaconda3/envs/nlp/lib/python3.7/site-packages/pandas/compat/numpy/function.py:125: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(_np_version) >= LooseVersion("1.17.0"):
+usage: train.py [-h] [--save_dir SAVE_DIR] [--dataset {chnsenticorp,xnli_cn}]
+                [--max_seq_length MAX_SEQ_LENGTH] [--batch_size BATCH_SIZE]
+                [--learning_rate LEARNING_RATE] [--weight_decay WEIGHT_DECAY]
+                [--epochs EPOCHS] [--warmup_proportion WARMUP_PROPORTION]
+                [--valid_steps VALID_STEPS] [--save_steps SAVE_STEPS]
+                [--logging_steps LOGGING_STEPS]
+                [--init_from_ckpt INIT_FROM_CKPT] [--seed SEED]
+                [--device {cpu,gpu,xpu,npu}] [--use_amp USE_AMP]
+                [--scale_loss SCALE_LOSS]
+train.py: error: argument --use_amp: invalid strtobool value: 'False--'
+/workspace/qiuzihan/anaconda3/envs/nlp/lib/python3.7/site-packages/pandas/compat/numpy/__init__.py:10: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  _nlv = LooseVersion(_np_version)
+/workspace/qiuzihan/anaconda3/envs/nlp/lib/python3.7/site-packages/pandas/compat/numpy/__init__.py:11: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  _np_version_under1p16 = _nlv < LooseVersion("1.16")
+/workspace/qiuzihan/anaconda3/envs/nlp/lib/python3.7/site-packages/pandas/compat/numpy/__init__.py:12: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  _np_version_under1p17 = _nlv < LooseVersion("1.17")
+/workspace/qiuzihan/anaconda3/envs/nlp/lib/python3.7/site-packages/pandas/compat/numpy/__init__.py:13: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  _np_version_under1p18 = _nlv < LooseVersion("1.18")
+/workspace/qiuzihan/anaconda3/envs/nlp/lib/python3.7/site-packages/pandas/compat/numpy/__init__.py:14: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  _np_version_under1p19 = _nlv < LooseVersion("1.19")
+/workspace/qiuzihan/anaconda3/envs/nlp/lib/python3.7/site-packages/pandas/compat/numpy/__init__.py:15: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  _np_version_under1p20 = _nlv < LooseVersion("1.20")
+/workspace/qiuzihan/anaconda3/envs/nlp/lib/python3.7/site-packages/setuptools/_distutils/version.py:351: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  other = LooseVersion(other)
+/workspace/qiuzihan/anaconda3/envs/nlp/lib/python3.7/site-packages/pandas/compat/numpy/function.py:125: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(_np_version) >= LooseVersion("1.17.0"):
+[32m[2022-05-30 17:14:56,904] [    INFO][0m - We are using <class 'paddlenlp.transformers.ernie.modeling.ErnieForSequenceClassification'> to load 'ernie-3.0-base-zh'.[0m
+[32m[2022-05-30 17:14:56,904] [    INFO][0m - Already cached /home/qiuzihan/.paddlenlp/models/ernie-3.0-base-zh/ernie_3.0_base_zh.pdparams[0m
+W0530 17:14:56.906587 1373243 gpu_context.cc:278] Please NOTE: device: 0, GPU Compute Capability: 7.0, Driver API Version: 10.2, Runtime API Version: 10.2
+W0530 17:14:56.911959 1373243 gpu_context.cc:306] device: 0, cuDNN Version: 7.6.
+[32m[2022-05-30 17:15:07,625] [    INFO][0m - We are using <class 'paddlenlp.transformers.ernie.tokenizer.ErnieTokenizer'> to load 'ernie-3.0-base-zh'.[0m
+[32m[2022-05-30 17:15:07,625] [    INFO][0m - Already cached /home/qiuzihan/.paddlenlp/models/ernie-3.0-base-zh/ernie_3.0_base_zh_vocab.txt[0m
+global step 10, epoch: 1, batch: 10, loss: 0.17825, accuracy: 0.95000, speed: 1.83 step/s
+global step 20, epoch: 1, batch: 20, loss: 0.16569, accuracy: 0.94167, speed: 2.60 step/s
+global step 30, epoch: 1, batch: 30, loss: 0.12463, accuracy: 0.94556, speed: 2.44 step/s
+global step 40, epoch: 1, batch: 40, loss: 0.04017, accuracy: 0.94833, speed: 2.31 step/s
+global step 50, epoch: 1, batch: 50, loss: 0.03642, accuracy: 0.95267, speed: 2.38 step/s
+global step 60, epoch: 1, batch: 60, loss: 0.08602, accuracy: 0.95444, speed: 2.33 step/s
+global step 70, epoch: 1, batch: 70, loss: 0.15039, accuracy: 0.95571, speed: 2.53 step/s
+global step 80, epoch: 1, batch: 80, loss: 0.19309, accuracy: 0.95417, speed: 2.54 step/s
+global step 90, epoch: 1, batch: 90, loss: 0.18068, accuracy: 0.95037, speed: 2.38 step/s
+global step 100, epoch: 1, batch: 100, loss: 0.08184, accuracy: 0.95033, speed: 2.36 step/s
+eval loss: 0.19125, accuracy: 0.93083
+[32m[2022-05-30 17:16:04,631] [    INFO][0m - tokenizer config file saved in ./checkpoints/model_100/tokenizer_config.json[0m
+[32m[2022-05-30 17:16:04,631] [    INFO][0m - Special tokens file saved in ./checkpoints/model_100/special_tokens_map.json[0m
+global step 110, epoch: 1, batch: 110, loss: 0.05632, accuracy: 0.95667, speed: 2.19 step/s
+global step 120, epoch: 1, batch: 120, loss: 0.06784, accuracy: 0.95333, speed: 2.27 step/s
+global step 130, epoch: 1, batch: 130, loss: 0.18537, accuracy: 0.94889, speed: 2.21 step/s
+global step 140, epoch: 1, batch: 140, loss: 0.05516, accuracy: 0.95000, speed: 2.19 step/s
+global step 150, epoch: 1, batch: 150, loss: 0.04740, accuracy: 0.95200, speed: 2.23 step/s
+global step 160, epoch: 1, batch: 160, loss: 0.07856, accuracy: 0.95222, speed: 2.25 step/s
+global step 170, epoch: 1, batch: 170, loss: 0.01141, accuracy: 0.95381, speed: 2.26 step/s
+global step 180, epoch: 1, batch: 180, loss: 0.17383, accuracy: 0.95375, speed: 2.14 step/s
+global step 190, epoch: 1, batch: 190, loss: 0.05170, accuracy: 0.95444, speed: 2.41 step/s
+global step 200, epoch: 1, batch: 200, loss: 0.19866, accuracy: 0.95500, speed: 2.15 step/s
+eval loss: 0.19311, accuracy: 0.93917
+[32m[2022-05-30 17:17:03,484] [    INFO][0m - tokenizer config file saved in ./checkpoints/model_200/tokenizer_config.json[0m
+[32m[2022-05-30 17:17:03,484] [    INFO][0m - Special tokens file saved in ./checkpoints/model_200/special_tokens_map.json[0m

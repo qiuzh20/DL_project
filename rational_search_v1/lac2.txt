@@ -1,0 +1,4 @@
+# Successfully load C funcs for acceleration.
+`jio.help()` is provided to search how to use jio functions.
+Or browse `https://github.com/dongrixinyu/JioNLP` to get help.
+Namespace(Grammer_path='./grammer_voc.txt', batch_size=32, class_filter=True, cls=False, emotion_cls=True, extract_keywords=True, get_summary=True, keywords='疫情', keywords_path='./keywords_voc.txt', max_seq_length=128, model_name_or_path='ernie-3.0-medium-zh', model_path='./Ernie/tnews_pruned_infer_model/float32', set_dynamic_shape=False, shape_info_file='shape_info.txt', task_name='seq_cls', use_fp16=False, use_quantize=False)

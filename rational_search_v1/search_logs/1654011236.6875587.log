@@ -1,0 +1,101 @@
+31-34-2022 15:34:06 root:INFO:Finish load title classification in 9.492971420288086
+31-34-2022 15:34:06 jiojio.util.logger:INFO:-------------------- logging start --------------------
+31-34-2022 15:34:06 jiojio.util.logger:INFO:LEVEL: INFO
+31-34-2022 15:34:06 jiojio.util.logger:INFO:PATH:  /home/qiuzihan/.jiojio/jiojio_logs
+31-34-2022 15:34:06 jiojio.util.logger:INFO:-------------------------------------------------------
+31-34-2022 15:34:06 jionlp.util.logger:INFO:-------------------- logging start --------------------
+31-34-2022 15:34:06 jionlp.util.logger:INFO:LEVEL: INFO
+31-34-2022 15:34:06 jionlp.util.logger:INFO:PATH:  /home/qiuzihan/.jionlp_logs
+31-34-2022 15:34:06 jionlp.util.logger:INFO:-------------------------------------------------------
+31-34-2022 15:34:06 root:INFO:Finish load keywords extractor in 0.02801990509033203
+31-34-2022 15:34:07 urllib3.connectionpool:DEBUG:Starting new HTTPS connection (1): huggingface.co:443
+31-34-2022 15:34:08 urllib3.connectionpool:DEBUG:https://huggingface.co:443 "HEAD /bert-base-chinese/resolve/main/vocab.txt HTTP/1.1" 200 0
+31-34-2022 15:34:08 urllib3.connectionpool:DEBUG:Starting new HTTPS connection (1): huggingface.co:443
+31-34-2022 15:34:10 urllib3.connectionpool:DEBUG:https://huggingface.co:443 "HEAD /bert-base-chinese/resolve/main/added_tokens.json HTTP/1.1" 404 0
+31-34-2022 15:34:10 urllib3.connectionpool:DEBUG:Starting new HTTPS connection (1): huggingface.co:443
+31-34-2022 15:34:11 urllib3.connectionpool:DEBUG:https://huggingface.co:443 "HEAD /bert-base-chinese/resolve/main/special_tokens_map.json HTTP/1.1" 404 0
+31-34-2022 15:34:11 urllib3.connectionpool:DEBUG:Starting new HTTPS connection (1): huggingface.co:443
+31-34-2022 15:34:12 urllib3.connectionpool:DEBUG:https://huggingface.co:443 "HEAD /bert-base-chinese/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+31-34-2022 15:34:12 urllib3.connectionpool:DEBUG:Starting new HTTPS connection (1): huggingface.co:443
+31-34-2022 15:34:13 urllib3.connectionpool:DEBUG:https://huggingface.co:443 "HEAD /bert-base-chinese/resolve/main/config.json HTTP/1.1" 200 0
+31-34-2022 15:34:13 urllib3.connectionpool:DEBUG:Starting new HTTPS connection (1): huggingface.co:443
+31-34-2022 15:34:14 urllib3.connectionpool:DEBUG:https://huggingface.co:443 "HEAD /bert-base-chinese/resolve/main/config.json HTTP/1.1" 200 0
+31-34-2022 15:34:14 urllib3.connectionpool:DEBUG:Starting new HTTPS connection (1): huggingface.co:443
+31-34-2022 15:34:15 urllib3.connectionpool:DEBUG:https://huggingface.co:443 "HEAD /bert-base-chinese/resolve/main/pytorch_model.bin HTTP/1.1" 302 0
+31-34-2022 15:34:21 root:INFO:Finish load summarizer in 14.820226192474365
+31-34-2022 15:34:22 urllib3.connectionpool:DEBUG:Starting new HTTP connection (1): paddlepaddle.org.cn:80
+31-34-2022 15:34:22 urllib3.connectionpool:DEBUG:http://paddlepaddle.org.cn:80 "GET /paddlehub/stat?word=ernie-3.0-base-zh&hub_version=+&ppnlp_version=2.3.1&paddle_version=2.3.0&from=ppnlp&extra=%7B%22command%22%3A+%22from_pretrained%22%2C+%22mtime%22%3A+%222022-05-31+15%3A34%3A22%22%2C+%22hub_name%22%3A+%22bcdd51d31979c8485615380758de433e-1654011262%22%2C+%22cache_info%22%3A+%222cb22541501a4fae6277db4fb6b4b7e2%22%7D HTTP/1.1" 301 184
+31-34-2022 15:34:22 urllib3.connectionpool:DEBUG:Starting new HTTPS connection (1): paddlepaddle.org.cn:443
+31-34-2022 15:34:22 urllib3.connectionpool:DEBUG:https://paddlepaddle.org.cn:443 "GET /paddlehub/stat?word=ernie-3.0-base-zh&hub_version=+&ppnlp_version=2.3.1&paddle_version=2.3.0&from=ppnlp&extra=%7B%22command%22%3A+%22from_pretrained%22%2C+%22mtime%22%3A+%222022-05-31+15%3A34%3A22%22%2C+%22hub_name%22%3A+%22bcdd51d31979c8485615380758de433e-1654011262%22%2C+%22cache_info%22%3A+%222cb22541501a4fae6277db4fb6b4b7e2%22%7D HTTP/1.1" 200 13
+31-34-2022 15:34:24 root:INFO:Finish load emtion classification in 2.7714390754699707
+31-34-2022 15:34:28 root:INFO:Finish load classification in 3.9481751918792725
+31-54-2022 15:54:26 urllib3.connectionpool:DEBUG:Starting new HTTPS connection (1): www.baidu.com:443
+31-54-2022 15:54:27 urllib3.connectionpool:DEBUG:https://www.baidu.com:443 "GET /s?rtt=1&bsst=1&cl=2&tn=news&ie=utf-8&word=%E4%BA%A4%E5%8F%89%E4%BF%A1%E6%81%AF%E7%A0%94%E7%A9%B6%E9%99%A2&pn=0&ie=utf-8 HTTP/1.1" 200 None
+31-54-2022 15:54:27 urllib3.connectionpool:DEBUG:Starting new HTTPS connection (1): www.baidu.com:443
+31-54-2022 15:54:28 urllib3.connectionpool:DEBUG:https://www.baidu.com:443 "GET /s?rtt=1&bsst=1&cl=2&tn=news&ie=utf-8&word=%E4%BA%A4%E5%8F%89%E4%BF%A1%E6%81%AF%E7%A0%94%E7%A9%B6%E9%99%A2&pn=100&ie=utf-8 HTTP/1.1" 200 None
+31-54-2022 15:54:28 urllib3.connectionpool:DEBUG:Starting new HTTPS connection (1): www.baidu.com:443
+31-54-2022 15:54:29 urllib3.connectionpool:DEBUG:https://www.baidu.com:443 "GET /s?rtt=1&bsst=1&cl=2&tn=news&ie=utf-8&word=%E4%BA%A4%E5%8F%89%E4%BF%A1%E6%81%AF%E7%A0%94%E7%A9%B6%E9%99%A2&pn=200&ie=utf-8 HTTP/1.1" 200 None
+31-54-2022 15:54:29 urllib3.connectionpool:DEBUG:Starting new HTTPS connection (1): www.baidu.com:443
+31-54-2022 15:54:30 urllib3.connectionpool:DEBUG:https://www.baidu.com:443 "GET /s?rtt=1&bsst=1&cl=2&tn=news&ie=utf-8&word=%E4%BA%A4%E5%8F%89%E4%BF%A1%E6%81%AF%E7%A0%94%E7%A9%B6%E9%99%A2&pn=300&ie=utf-8 HTTP/1.1" 200 None
+31-54-2022 15:54:30 urllib3.connectionpool:DEBUG:Starting new HTTPS connection (1): www.baidu.com:443
+31-54-2022 15:54:31 urllib3.connectionpool:DEBUG:https://www.baidu.com:443 "GET /s?rtt=1&bsst=1&cl=2&tn=news&ie=utf-8&word=%E4%BA%A4%E5%8F%89%E4%BF%A1%E6%81%AF%E7%A0%94%E7%A9%B6%E9%99%A2&pn=400&ie=utf-8 HTTP/1.1" 200 None
+31-54-2022 15:54:31 urllib3.connectionpool:DEBUG:Starting new HTTPS connection (1): www.baidu.com:443
+31-54-2022 15:54:32 urllib3.connectionpool:DEBUG:https://www.baidu.com:443 "GET /s?rtt=1&bsst=1&cl=2&tn=news&ie=utf-8&word=%E4%BA%A4%E5%8F%89%E4%BF%A1%E6%81%AF%E7%A0%94%E7%A9%B6%E9%99%A2&pn=500&ie=utf-8 HTTP/1.1" 200 None
+31-54-2022 15:54:32 urllib3.connectionpool:DEBUG:Starting new HTTPS connection (1): www.baidu.com:443
+31-54-2022 15:54:33 urllib3.connectionpool:DEBUG:https://www.baidu.com:443 "GET /s?rtt=1&bsst=1&cl=2&tn=news&ie=utf-8&word=%E4%BA%A4%E5%8F%89%E4%BF%A1%E6%81%AF%E7%A0%94%E7%A9%B6%E9%99%A2&pn=600&ie=utf-8 HTTP/1.1" 200 None
+31-54-2022 15:54:33 urllib3.connectionpool:DEBUG:Starting new HTTPS connection (1): www.baidu.com:443
+31-54-2022 15:54:33 urllib3.connectionpool:DEBUG:https://www.baidu.com:443 "GET /s?rtt=1&bsst=1&cl=2&tn=news&ie=utf-8&word=%E4%BA%A4%E5%8F%89%E4%BF%A1%E6%81%AF%E7%A0%94%E7%A9%B6%E9%99%A2&pn=700&ie=utf-8 HTTP/1.1" 200 None
+31-54-2022 15:54:33 urllib3.connectionpool:DEBUG:Starting new HTTPS connection (1): www.baidu.com:443
+31-54-2022 15:54:34 urllib3.connectionpool:DEBUG:https://www.baidu.com:443 "GET /s?rtt=1&bsst=1&cl=2&tn=news&ie=utf-8&word=%E4%BA%A4%E5%8F%89%E4%BF%A1%E6%81%AF%E7%A0%94%E7%A9%B6%E9%99%A2&pn=800&ie=utf-8 HTTP/1.1" 200 None
+31-54-2022 15:54:34 urllib3.connectionpool:DEBUG:Starting new HTTPS connection (1): www.baidu.com:443
+31-54-2022 15:54:34 urllib3.connectionpool:DEBUG:https://www.baidu.com:443 "GET /s?rtt=1&bsst=1&cl=2&tn=news&ie=utf-8&word=%E4%BA%A4%E5%8F%89%E4%BF%A1%E6%81%AF%E7%A0%94%E7%A9%B6%E9%99%A2&pn=900&ie=utf-8 HTTP/1.1" 200 None
+31-54-2022 15:54:34 urllib3.connectionpool:DEBUG:Starting new HTTPS connection (1): www.baidu.com:443
+31-54-2022 15:54:35 urllib3.connectionpool:DEBUG:https://www.baidu.com:443 "GET /s?rtt=1&bsst=1&cl=2&tn=news&ie=utf-8&word=%E4%BA%A4%E5%8F%89%E4%BF%A1%E6%81%AF%E7%A0%94%E7%A9%B6%E9%99%A2&pn=1000&ie=utf-8 HTTP/1.1" 200 None
+31-54-2022 15:54:35 urllib3.connectionpool:DEBUG:Starting new HTTPS connection (1): www.baidu.com:443
+31-54-2022 15:54:35 urllib3.connectionpool:DEBUG:https://www.baidu.com:443 "GET /s?rtt=1&bsst=1&cl=2&tn=news&ie=utf-8&word=%E4%BA%A4%E5%8F%89%E4%BF%A1%E6%81%AF%E7%A0%94%E7%A9%B6%E9%99%A2&pn=1100&ie=utf-8 HTTP/1.1" 200 None
+31-54-2022 15:54:35 urllib3.connectionpool:DEBUG:Starting new HTTPS connection (1): www.baidu.com:443
+31-54-2022 15:54:36 urllib3.connectionpool:DEBUG:https://www.baidu.com:443 "GET /s?rtt=1&bsst=1&cl=2&tn=news&ie=utf-8&word=%E4%BA%A4%E5%8F%89%E4%BF%A1%E6%81%AF%E7%A0%94%E7%A9%B6%E9%99%A2&pn=1200&ie=utf-8 HTTP/1.1" 200 None
+31-54-2022 15:54:36 urllib3.connectionpool:DEBUG:Starting new HTTPS connection (1): www.baidu.com:443
+31-54-2022 15:54:36 urllib3.connectionpool:DEBUG:https://www.baidu.com:443 "GET /s?rtt=1&bsst=1&cl=2&tn=news&ie=utf-8&word=%E4%BA%A4%E5%8F%89%E4%BF%A1%E6%81%AF%E7%A0%94%E7%A9%B6%E9%99%A2&pn=1300&ie=utf-8 HTTP/1.1" 200 None
+31-54-2022 15:54:36 urllib3.connectionpool:DEBUG:Starting new HTTPS connection (1): www.baidu.com:443
+31-54-2022 15:54:37 urllib3.connectionpool:DEBUG:https://www.baidu.com:443 "GET /s?rtt=1&bsst=1&cl=2&tn=news&ie=utf-8&word=%E4%BA%A4%E5%8F%89%E4%BF%A1%E6%81%AF%E7%A0%94%E7%A9%B6%E9%99%A2&pn=1400&ie=utf-8 HTTP/1.1" 200 None
+31-54-2022 15:54:37 urllib3.connectionpool:DEBUG:Starting new HTTPS connection (1): www.baidu.com:443
+31-54-2022 15:54:37 urllib3.connectionpool:DEBUG:https://www.baidu.com:443 "GET /s?rtt=1&bsst=1&cl=2&tn=news&ie=utf-8&word=%E4%BA%A4%E5%8F%89%E4%BF%A1%E6%81%AF%E7%A0%94%E7%A9%B6%E9%99%A2&pn=1500&ie=utf-8 HTTP/1.1" 200 None
+31-54-2022 15:54:37 urllib3.connectionpool:DEBUG:Starting new HTTPS connection (1): www.baidu.com:443
+31-54-2022 15:54:38 urllib3.connectionpool:DEBUG:https://www.baidu.com:443 "GET /s?rtt=1&bsst=1&cl=2&tn=news&ie=utf-8&word=%E4%BA%A4%E5%8F%89%E4%BF%A1%E6%81%AF%E7%A0%94%E7%A9%B6%E9%99%A2&pn=1600&ie=utf-8 HTTP/1.1" 200 None
+31-54-2022 15:54:38 urllib3.connectionpool:DEBUG:Starting new HTTPS connection (1): www.baidu.com:443
+31-54-2022 15:54:38 urllib3.connectionpool:DEBUG:https://www.baidu.com:443 "GET /s?rtt=1&bsst=1&cl=2&tn=news&ie=utf-8&word=%E4%BA%A4%E5%8F%89%E4%BF%A1%E6%81%AF%E7%A0%94%E7%A9%B6%E9%99%A2&pn=1700&ie=utf-8 HTTP/1.1" 200 None
+31-54-2022 15:54:38 urllib3.connectionpool:DEBUG:Starting new HTTPS connection (1): www.baidu.com:443
+31-54-2022 15:54:39 urllib3.connectionpool:DEBUG:https://www.baidu.com:443 "GET /s?rtt=1&bsst=1&cl=2&tn=news&ie=utf-8&word=%E4%BA%A4%E5%8F%89%E4%BF%A1%E6%81%AF%E7%A0%94%E7%A9%B6%E9%99%A2&pn=1800&ie=utf-8 HTTP/1.1" 200 None
+31-54-2022 15:54:39 urllib3.connectionpool:DEBUG:Starting new HTTPS connection (1): www.baidu.com:443
+31-54-2022 15:54:40 urllib3.connectionpool:DEBUG:https://www.baidu.com:443 "GET /s?rtt=1&bsst=1&cl=2&tn=news&ie=utf-8&word=%E4%BA%A4%E5%8F%89%E4%BF%A1%E6%81%AF%E7%A0%94%E7%A9%B6%E9%99%A2&pn=1900&ie=utf-8 HTTP/1.1" 200 None
+31-54-2022 15:54:40 root:INFO:Finish title search in 13.56646990776062
+31-54-2022 15:54:40 root:INFO:Finish title search in 13.566701650619507
+31-54-2022 15:54:40 urllib3.connectionpool:DEBUG:Starting new HTTPS connection (1): baijiahao.baidu.com:443
+31-54-2022 15:54:40 urllib3.connectionpool:DEBUG:https://baijiahao.baidu.com:443 "GET /s?id=1734347232741996010&wfr=spider&for=pc HTTP/1.1" 302 0
+31-54-2022 15:54:40 urllib3.connectionpool:DEBUG:Starting new HTTPS connection (1): wappass.baidu.com:443
+31-54-2022 15:54:40 urllib3.connectionpool:DEBUG:https://wappass.baidu.com:443 "GET /static/captcha/tuxing.html?ak=572be823e2f50ea759a616c060d6b9f1&backurl=https%3A%2F%2Fmbd.baidu.com%2Fnewspage%2Fdata%2Flandingsuper%3Fthird%3Dbaijiahao%26baijiahao_id%3D1734347232741996010%26wfr%3Dspider%26c_source%3Dduedge&timestamp=1654012480&signature=a7db919116f0a88b52dbbc583d835ebf HTTP/1.1" 200 None
+31-54-2022 15:54:40 urllib3.connectionpool:DEBUG:Starting new HTTPS connection (1): www.sohu.com:443
+31-54-2022 15:54:41 urllib3.connectionpool:DEBUG:https://www.sohu.com:443 "GET /a/551710268_121331954 HTTP/1.1" 200 None
+31-54-2022 15:54:41 urllib3.connectionpool:DEBUG:Starting new HTTP connection (1): www.163.com:80
+31-54-2022 15:54:41 urllib3.connectionpool:DEBUG:http://www.163.com:80 "GET /dy/article/H89GLUA80511CQLG.html HTTP/1.1" 403 233
+31-54-2022 15:54:41 urllib3.connectionpool:DEBUG:Starting new HTTP connection (1): app.myzaker.com:80
+31-54-2022 15:54:41 urllib3.connectionpool:DEBUG:http://app.myzaker.com:80 "GET /news/article.php?pk=6290cac68e9f0969544d97e0 HTTP/1.1" 200 None
+31-54-2022 15:54:41 urllib3.connectionpool:DEBUG:Starting new HTTPS connection (1): news.ruc.edu.cn:443
+31-54-2022 15:54:42 urllib3.connectionpool:DEBUG:https://news.ruc.edu.cn:443 "GET /archives/382835 HTTP/1.1" 403 None
+31-54-2022 15:54:42 urllib3.connectionpool:DEBUG:Starting new HTTP connection (1): www.mof.gov.cn:80
+31-54-2022 15:54:42 urllib3.connectionpool:DEBUG:http://www.mof.gov.cn:80 "GET /gkml/xinxi/zhongyangbiaoxun/zhongyangzhongbiaogonggao/202205/t20220530_17989969.htm HTTP/1.1" 200 None
+31-54-2022 15:54:42 urllib3.connectionpool:DEBUG:Starting new HTTPS connection (1): view.inews.qq.com:443
+31-54-2022 15:54:42 urllib3.connectionpool:DEBUG:https://view.inews.qq.com:443 "GET /a/20220527A0D1S600 HTTP/1.1" 200 None
+31-54-2022 15:54:42 urllib3.connectionpool:DEBUG:Starting new HTTP connection (1): www.thepaper.cn:80
+31-54-2022 15:54:42 urllib3.connectionpool:DEBUG:http://www.thepaper.cn:80 "GET /newsDetail_forward_2020525 HTTP/1.1" 200 None
+31-54-2022 15:54:42 urllib3.connectionpool:DEBUG:Starting new HTTP connection (1): m.haiwainet.cn:80
+31-54-2022 15:54:43 urllib3.connectionpool:DEBUG:http://m.haiwainet.cn:80 "GET /middle/345416/2016/0919/content_30336071_2.html HTTP/1.1" 200 None
+31-54-2022 15:54:43 urllib3.connectionpool:DEBUG:Starting new HTTPS connection (1): m.sohu.com:443
+31-54-2022 15:54:43 urllib3.connectionpool:DEBUG:https://m.sohu.com:443 "GET /a/552580572_121243858/ HTTP/1.1" 200 None
+31-54-2022 15:54:43 root:INFO:Finish title search in 2.580467700958252
+31-55-2022 15:55:02 root:INFO:Finish get keywords in 19.060838222503662
+31-55-2022 15:55:06 root:INFO:Finish summarizing in 4.462775230407715
+31-55-2022 15:55:07 root:INFO:Finish predict emotion in 0.31583523750305176
+31-55-2022 15:55:09 root:INFO:Finish classification in 1.8475627899169922
+31-55-2022 15:55:09 root:INFO:Finish title search in 25.68950343132019
