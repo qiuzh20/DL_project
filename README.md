@@ -1,9 +1,7 @@
 # Deep learning class project -- A rational search engine
 
 ## Deploy demo
-<video id="video" controls="" preload="none" poster="封面">
-      <source id="mp4" src="demo" type="video/mp4">
-</videos>
+[![Watch the video](https://raw.github.com/GabLeRoux/WebMole/master/ressources/WebMole_Youtube_Video.png)](http://youtu.be/vt5fpE0bzSY)
 ## Search demo
-
+[![Watch the video](https://raw.github.com/GabLeRoux/WebMole/master/ressources/WebMole_Youtube_Video.png)](http://youtu.be/vt5fpE0bzSY)
 ## Search result
