@@ -1,12 +1,12 @@
 # 深度学习课程项目——理性搜索引擎
 
 ## 布置演示
-下面视频展示了布置选定功能的搜索引擎的过程。
+下面视频展示了布置选定功能的搜索引擎的过程。（点击图片跳转链接）
 [![Watch the video](interface.png)](https://cloud.tsinghua.edu.cn/f/041e3f2aac474f19b927/)
 （若链接打不开，可以查看 demo.mp4 文件）
 
 ## 搜索演示
-This video shows the searching process and results.
+下面视频展示了布置结束后搜索的过程。（点击图片跳转链接）
 [![Watch the video](process_result.png)](https://cloud.tsinghua.edu.cn/f/b726106a6bee4d39af4c/)
 （若链接打不开，可查看 search_demo.mp4 文件）
 
@@ -34,8 +34,8 @@ rational_search_final
 │    ├── pytorch_model.bin          # 待下载模型，参考README
 │    ├── README.md                  # 预训练模型部署指南
 │    └── vocab.txt                  # 模型词表
-├── chinese_keyphrase_extractor # 文本关键词提取方法 (注意需解压后安装)
-│    ├── README.md                  # 参考配置关键词提取模型
+├── chinese_keyphrase_extractor # 文本关键词提取方法
+│    ├── README.md                  # 参考配置关键词安装模型
 │    └── ......                     # 其它依赖文件
 ├── Emotion                     # 基于Ernie3.0的文本情感分类方法
 │    ├── checkpoints                # 训练checkpoint保存路径
@@ -59,6 +59,7 @@ rational_search_final
 │    └── keywords_voc.txt           # 关键词过滤库材料
 ├── search                      # 基于网络爬虫的关键词搜索功能
 │    ├── history                    # 各版本搜索方法
+│    ├── README.md                  # 使用方法
 │    └── search.py                  # 使用的搜索方法
 ├── search_logs                 # 记录模型载入、搜索、处理等各部分用时
 ├── search_results              # 以txt格式记录搜索结果
