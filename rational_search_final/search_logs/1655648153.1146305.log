@@ -1,0 +1,173 @@
+19-16-2022 14:16:20 __main__:INFO:Finish load keywords extractor in 7.576785087585449
+19-16-2022 14:16:20 GPT2_Summary.transformers_utils.file_utils:INFO:PyTorch version 1.11.0+cu102 available.
+19-16-2022 14:16:22 GPT2_Summary.transformers_utils.configuration_utils:INFO:loading configuration file GPT2_Summary/summary_model/config.json
+19-16-2022 14:16:22 GPT2_Summary.transformers_utils.configuration_utils:INFO:Model config {
+  "attn_pdrop": 0.1,
+  "bos_token_id": 0,
+  "do_sample": false,
+  "embd_pdrop": 0.1,
+  "eos_token_ids": 0,
+  "finetuning_task": null,
+  "id2label": {
+    "0": "LABEL_0",
+    "1": "LABEL_1"
+  },
+  "initializer_range": 0.02,
+  "is_decoder": false,
+  "label2id": {
+    "LABEL_0": 0,
+    "LABEL_1": 1
+  },
+  "layer_norm_epsilon": 1e-05,
+  "length_penalty": 1.0,
+  "max_length": 20,
+  "n_ctx": 1024,
+  "n_embd": 768,
+  "n_head": 12,
+  "n_layer": 10,
+  "n_positions": 1024,
+  "num_beams": 1,
+  "num_labels": 2,
+  "num_return_sequences": 1,
+  "output_attentions": false,
+  "output_hidden_states": false,
+  "output_past": true,
+  "pad_token_id": 0,
+  "pruned_heads": {},
+  "repetition_penalty": 1.0,
+  "resid_pdrop": 0.1,
+  "summary_activation": null,
+  "summary_first_dropout": 0.1,
+  "summary_proj_to_labels": true,
+  "summary_type": "cls_index",
+  "summary_use_proj": true,
+  "temperature": 1.0,
+  "top_k": 50,
+  "top_p": 1.0,
+  "torchscript": false,
+  "use_bfloat16": false,
+  "vocab_size": 13317
+}
+
+19-16-2022 14:16:22 GPT2_Summary.transformers_utils.modeling_utils:INFO:loading weights file GPT2_Summary/summary_model/pytorch_model.bin
+19-16-2022 14:16:28 __main__:INFO:Finish load summarizer in 8.312381267547607
+19-16-2022 14:16:47 urllib3.connectionpool:DEBUG:Starting new HTTPS connection (1): www.baidu.com:443
+19-16-2022 14:16:48 urllib3.connectionpool:DEBUG:https://www.baidu.com:443 "GET /s?rtt=1&bsst=1&cl=2&tn=news&ie=utf-8&word=%E4%B9%A0%E8%BF%91%E5%B9%B3%E6%96%B0%E6%97%B6%E4%BB%A3%E4%B8%AD%E5%9B%BD%E7%89%B9%E8%89%B2%E7%A4%BE%E4%BC%9A%E4%B8%BB%E4%B9%89%E6%80%9D%E6%83%B3&pn=0&ie=utf-8 HTTP/1.1" 200 None
+19-16-2022 14:16:48 urllib3.connectionpool:DEBUG:Starting new HTTPS connection (1): www.baidu.com:443
+19-16-2022 14:16:49 urllib3.connectionpool:DEBUG:https://www.baidu.com:443 "GET /s?rtt=1&bsst=1&cl=2&tn=news&ie=utf-8&word=%E4%B9%A0%E8%BF%91%E5%B9%B3%E6%96%B0%E6%97%B6%E4%BB%A3%E4%B8%AD%E5%9B%BD%E7%89%B9%E8%89%B2%E7%A4%BE%E4%BC%9A%E4%B8%BB%E4%B9%89%E6%80%9D%E6%83%B3&pn=100&ie=utf-8 HTTP/1.1" 200 None
+19-16-2022 14:16:49 urllib3.connectionpool:DEBUG:Starting new HTTPS connection (1): www.baidu.com:443
+19-16-2022 14:16:50 urllib3.connectionpool:DEBUG:https://www.baidu.com:443 "GET /s?rtt=1&bsst=1&cl=2&tn=news&ie=utf-8&word=%E4%B9%A0%E8%BF%91%E5%B9%B3%E6%96%B0%E6%97%B6%E4%BB%A3%E4%B8%AD%E5%9B%BD%E7%89%B9%E8%89%B2%E7%A4%BE%E4%BC%9A%E4%B8%BB%E4%B9%89%E6%80%9D%E6%83%B3&pn=200&ie=utf-8 HTTP/1.1" 200 None
+19-16-2022 14:16:50 urllib3.connectionpool:DEBUG:Starting new HTTPS connection (1): www.baidu.com:443
+19-16-2022 14:16:51 urllib3.connectionpool:DEBUG:https://www.baidu.com:443 "GET /s?rtt=1&bsst=1&cl=2&tn=news&ie=utf-8&word=%E4%B9%A0%E8%BF%91%E5%B9%B3%E6%96%B0%E6%97%B6%E4%BB%A3%E4%B8%AD%E5%9B%BD%E7%89%B9%E8%89%B2%E7%A4%BE%E4%BC%9A%E4%B8%BB%E4%B9%89%E6%80%9D%E6%83%B3&pn=300&ie=utf-8 HTTP/1.1" 200 None
+19-16-2022 14:16:52 urllib3.connectionpool:DEBUG:Starting new HTTPS connection (1): www.baidu.com:443
+19-16-2022 14:16:53 urllib3.connectionpool:DEBUG:https://www.baidu.com:443 "GET /s?rtt=1&bsst=1&cl=2&tn=news&ie=utf-8&word=%E4%B9%A0%E8%BF%91%E5%B9%B3%E6%96%B0%E6%97%B6%E4%BB%A3%E4%B8%AD%E5%9B%BD%E7%89%B9%E8%89%B2%E7%A4%BE%E4%BC%9A%E4%B8%BB%E4%B9%89%E6%80%9D%E6%83%B3&pn=400&ie=utf-8 HTTP/1.1" 200 None
+19-16-2022 14:16:53 urllib3.connectionpool:DEBUG:Starting new HTTPS connection (1): www.baidu.com:443
+19-16-2022 14:16:54 urllib3.connectionpool:DEBUG:https://www.baidu.com:443 "GET /s?rtt=1&bsst=1&cl=2&tn=news&ie=utf-8&word=%E4%B9%A0%E8%BF%91%E5%B9%B3%E6%96%B0%E6%97%B6%E4%BB%A3%E4%B8%AD%E5%9B%BD%E7%89%B9%E8%89%B2%E7%A4%BE%E4%BC%9A%E4%B8%BB%E4%B9%89%E6%80%9D%E6%83%B3&pn=500&ie=utf-8 HTTP/1.1" 200 None
+19-16-2022 14:16:54 urllib3.connectionpool:DEBUG:Starting new HTTPS connection (1): www.baidu.com:443
+19-16-2022 14:16:55 urllib3.connectionpool:DEBUG:https://www.baidu.com:443 "GET /s?rtt=1&bsst=1&cl=2&tn=news&ie=utf-8&word=%E4%B9%A0%E8%BF%91%E5%B9%B3%E6%96%B0%E6%97%B6%E4%BB%A3%E4%B8%AD%E5%9B%BD%E7%89%B9%E8%89%B2%E7%A4%BE%E4%BC%9A%E4%B8%BB%E4%B9%89%E6%80%9D%E6%83%B3&pn=600&ie=utf-8 HTTP/1.1" 200 None
+19-16-2022 14:16:55 urllib3.connectionpool:DEBUG:Starting new HTTPS connection (1): www.baidu.com:443
+19-16-2022 14:16:56 urllib3.connectionpool:DEBUG:https://www.baidu.com:443 "GET /s?rtt=1&bsst=1&cl=2&tn=news&ie=utf-8&word=%E4%B9%A0%E8%BF%91%E5%B9%B3%E6%96%B0%E6%97%B6%E4%BB%A3%E4%B8%AD%E5%9B%BD%E7%89%B9%E8%89%B2%E7%A4%BE%E4%BC%9A%E4%B8%BB%E4%B9%89%E6%80%9D%E6%83%B3&pn=700&ie=utf-8 HTTP/1.1" 200 None
+19-16-2022 14:16:56 urllib3.connectionpool:DEBUG:Starting new HTTPS connection (1): www.baidu.com:443
+19-16-2022 14:16:57 urllib3.connectionpool:DEBUG:https://www.baidu.com:443 "GET /s?rtt=1&bsst=1&cl=2&tn=news&ie=utf-8&word=%E4%B9%A0%E8%BF%91%E5%B9%B3%E6%96%B0%E6%97%B6%E4%BB%A3%E4%B8%AD%E5%9B%BD%E7%89%B9%E8%89%B2%E7%A4%BE%E4%BC%9A%E4%B8%BB%E4%B9%89%E6%80%9D%E6%83%B3&pn=800&ie=utf-8 HTTP/1.1" 200 None
+19-16-2022 14:16:57 urllib3.connectionpool:DEBUG:Starting new HTTPS connection (1): www.baidu.com:443
+19-16-2022 14:16:57 urllib3.connectionpool:DEBUG:https://www.baidu.com:443 "GET /s?rtt=1&bsst=1&cl=2&tn=news&ie=utf-8&word=%E4%B9%A0%E8%BF%91%E5%B9%B3%E6%96%B0%E6%97%B6%E4%BB%A3%E4%B8%AD%E5%9B%BD%E7%89%B9%E8%89%B2%E7%A4%BE%E4%BC%9A%E4%B8%BB%E4%B9%89%E6%80%9D%E6%83%B3&pn=900&ie=utf-8 HTTP/1.1" 200 None
+19-16-2022 14:16:57 urllib3.connectionpool:DEBUG:Starting new HTTPS connection (1): www.baidu.com:443
+19-16-2022 14:16:57 urllib3.connectionpool:DEBUG:https://www.baidu.com:443 "GET /s?rtt=1&bsst=1&cl=2&tn=news&ie=utf-8&word=%E4%B9%A0%E8%BF%91%E5%B9%B3%E6%96%B0%E6%97%B6%E4%BB%A3%E4%B8%AD%E5%9B%BD%E7%89%B9%E8%89%B2%E7%A4%BE%E4%BC%9A%E4%B8%BB%E4%B9%89%E6%80%9D%E6%83%B3&pn=1000&ie=utf-8 HTTP/1.1" 200 None
+19-16-2022 14:16:57 urllib3.connectionpool:DEBUG:Starting new HTTPS connection (1): www.baidu.com:443
+19-16-2022 14:16:58 urllib3.connectionpool:DEBUG:https://www.baidu.com:443 "GET /s?rtt=1&bsst=1&cl=2&tn=news&ie=utf-8&word=%E4%B9%A0%E8%BF%91%E5%B9%B3%E6%96%B0%E6%97%B6%E4%BB%A3%E4%B8%AD%E5%9B%BD%E7%89%B9%E8%89%B2%E7%A4%BE%E4%BC%9A%E4%B8%BB%E4%B9%89%E6%80%9D%E6%83%B3&pn=1100&ie=utf-8 HTTP/1.1" 200 None
+19-16-2022 14:16:58 urllib3.connectionpool:DEBUG:Starting new HTTPS connection (1): www.baidu.com:443
+19-16-2022 14:16:58 urllib3.connectionpool:DEBUG:https://www.baidu.com:443 "GET /s?rtt=1&bsst=1&cl=2&tn=news&ie=utf-8&word=%E4%B9%A0%E8%BF%91%E5%B9%B3%E6%96%B0%E6%97%B6%E4%BB%A3%E4%B8%AD%E5%9B%BD%E7%89%B9%E8%89%B2%E7%A4%BE%E4%BC%9A%E4%B8%BB%E4%B9%89%E6%80%9D%E6%83%B3&pn=1200&ie=utf-8 HTTP/1.1" 200 None
+19-16-2022 14:16:58 urllib3.connectionpool:DEBUG:Starting new HTTPS connection (1): www.baidu.com:443
+19-16-2022 14:16:59 urllib3.connectionpool:DEBUG:https://www.baidu.com:443 "GET /s?rtt=1&bsst=1&cl=2&tn=news&ie=utf-8&word=%E4%B9%A0%E8%BF%91%E5%B9%B3%E6%96%B0%E6%97%B6%E4%BB%A3%E4%B8%AD%E5%9B%BD%E7%89%B9%E8%89%B2%E7%A4%BE%E4%BC%9A%E4%B8%BB%E4%B9%89%E6%80%9D%E6%83%B3&pn=1300&ie=utf-8 HTTP/1.1" 200 None
+19-16-2022 14:16:59 urllib3.connectionpool:DEBUG:Starting new HTTPS connection (1): www.baidu.com:443
+19-17-2022 14:17:00 urllib3.connectionpool:DEBUG:https://www.baidu.com:443 "GET /s?rtt=1&bsst=1&cl=2&tn=news&ie=utf-8&word=%E4%B9%A0%E8%BF%91%E5%B9%B3%E6%96%B0%E6%97%B6%E4%BB%A3%E4%B8%AD%E5%9B%BD%E7%89%B9%E8%89%B2%E7%A4%BE%E4%BC%9A%E4%B8%BB%E4%B9%89%E6%80%9D%E6%83%B3&pn=1400&ie=utf-8 HTTP/1.1" 200 None
+19-17-2022 14:17:00 urllib3.connectionpool:DEBUG:Starting new HTTPS connection (1): www.baidu.com:443
+19-17-2022 14:17:00 urllib3.connectionpool:DEBUG:https://www.baidu.com:443 "GET /s?rtt=1&bsst=1&cl=2&tn=news&ie=utf-8&word=%E4%B9%A0%E8%BF%91%E5%B9%B3%E6%96%B0%E6%97%B6%E4%BB%A3%E4%B8%AD%E5%9B%BD%E7%89%B9%E8%89%B2%E7%A4%BE%E4%BC%9A%E4%B8%BB%E4%B9%89%E6%80%9D%E6%83%B3&pn=1500&ie=utf-8 HTTP/1.1" 200 None
+19-17-2022 14:17:00 urllib3.connectionpool:DEBUG:Starting new HTTPS connection (1): www.baidu.com:443
+19-17-2022 14:17:01 urllib3.connectionpool:DEBUG:https://www.baidu.com:443 "GET /s?rtt=1&bsst=1&cl=2&tn=news&ie=utf-8&word=%E4%B9%A0%E8%BF%91%E5%B9%B3%E6%96%B0%E6%97%B6%E4%BB%A3%E4%B8%AD%E5%9B%BD%E7%89%B9%E8%89%B2%E7%A4%BE%E4%BC%9A%E4%B8%BB%E4%B9%89%E6%80%9D%E6%83%B3&pn=1600&ie=utf-8 HTTP/1.1" 200 None
+19-17-2022 14:17:01 urllib3.connectionpool:DEBUG:Starting new HTTPS connection (1): www.baidu.com:443
+19-17-2022 14:17:01 urllib3.connectionpool:DEBUG:https://www.baidu.com:443 "GET /s?rtt=1&bsst=1&cl=2&tn=news&ie=utf-8&word=%E4%B9%A0%E8%BF%91%E5%B9%B3%E6%96%B0%E6%97%B6%E4%BB%A3%E4%B8%AD%E5%9B%BD%E7%89%B9%E8%89%B2%E7%A4%BE%E4%BC%9A%E4%B8%BB%E4%B9%89%E6%80%9D%E6%83%B3&pn=1700&ie=utf-8 HTTP/1.1" 200 None
+19-17-2022 14:17:01 urllib3.connectionpool:DEBUG:Starting new HTTPS connection (1): www.baidu.com:443
+19-17-2022 14:17:02 urllib3.connectionpool:DEBUG:https://www.baidu.com:443 "GET /s?rtt=1&bsst=1&cl=2&tn=news&ie=utf-8&word=%E4%B9%A0%E8%BF%91%E5%B9%B3%E6%96%B0%E6%97%B6%E4%BB%A3%E4%B8%AD%E5%9B%BD%E7%89%B9%E8%89%B2%E7%A4%BE%E4%BC%9A%E4%B8%BB%E4%B9%89%E6%80%9D%E6%83%B3&pn=1800&ie=utf-8 HTTP/1.1" 200 None
+19-17-2022 14:17:02 urllib3.connectionpool:DEBUG:Starting new HTTPS connection (1): www.baidu.com:443
+19-17-2022 14:17:02 urllib3.connectionpool:DEBUG:https://www.baidu.com:443 "GET /s?rtt=1&bsst=1&cl=2&tn=news&ie=utf-8&word=%E4%B9%A0%E8%BF%91%E5%B9%B3%E6%96%B0%E6%97%B6%E4%BB%A3%E4%B8%AD%E5%9B%BD%E7%89%B9%E8%89%B2%E7%A4%BE%E4%BC%9A%E4%B8%BB%E4%B9%89%E6%80%9D%E6%83%B3&pn=1900&ie=utf-8 HTTP/1.1" 200 None
+19-17-2022 14:17:02 __main__:INFO:Finish title search in 15.282794713973999
+19-17-2022 14:17:02 urllib3.connectionpool:DEBUG:Starting new HTTPS connection (1): baijiahao.baidu.com:443
+19-17-2022 14:17:02 urllib3.connectionpool:DEBUG:https://baijiahao.baidu.com:443 "GET /s?id=1735499499019774987&wfr=spider&for=pc HTTP/1.1" 200 None
+19-17-2022 14:17:02 urllib3.connectionpool:DEBUG:Starting new HTTP connection (1): cpc.people.com.cn:80
+19-17-2022 14:17:02 urllib3.connectionpool:DEBUG:http://cpc.people.com.cn:80 "GET /n1/2022/0613/c64387-32444511.html HTTP/1.1" 200 None
+19-17-2022 14:17:02 urllib3.connectionpool:DEBUG:Starting new HTTP connection (1): news.cctv.com:80
+19-17-2022 14:17:03 urllib3.connectionpool:DEBUG:http://news.cctv.com:80 "GET /2022/06/08/ARTIFKBXvUPdePUeeq8sy0Dy220608.shtml HTTP/1.1" 200 None
+19-17-2022 14:17:03 urllib3.connectionpool:DEBUG:Starting new HTTP connection (1): news.cctv.com:80
+19-17-2022 14:17:03 urllib3.connectionpool:DEBUG:http://news.cctv.com:80 "GET /2022/06/11/ARTI2TqjOEIzCKHMCUTGiHS6220611.shtml HTTP/1.1" 200 None
+19-17-2022 14:17:03 urllib3.connectionpool:DEBUG:Starting new HTTP connection (1): dangjian.people.com.cn:80
+19-17-2022 14:17:03 urllib3.connectionpool:DEBUG:http://dangjian.people.com.cn:80 "GET /n1/2022/0412/c117092-32396625.html HTTP/1.1" 200 None
+19-17-2022 14:17:03 urllib3.connectionpool:DEBUG:Starting new HTTP connection (1): news.cctv.com:80
+19-17-2022 14:17:03 urllib3.connectionpool:DEBUG:http://news.cctv.com:80 "GET /2022/04/08/ARTItrMzAHvgb060VaDDIWRM220408.shtml HTTP/1.1" 200 None
+19-17-2022 14:17:03 urllib3.connectionpool:DEBUG:Starting new HTTP connection (1): news.cctv.com:80
+19-17-2022 14:17:03 urllib3.connectionpool:DEBUG:http://news.cctv.com:80 "GET /2022/03/25/ARTIuCBk6Tv7IdvE7ZPYKBKS220325.shtml HTTP/1.1" 200 None
+19-17-2022 14:17:03 urllib3.connectionpool:DEBUG:Starting new HTTP connection (1): theory.people.com.cn:80
+19-17-2022 14:17:04 urllib3.connectionpool:DEBUG:http://theory.people.com.cn:80 "GET /n1/2022/0314/c40531-32373794.html HTTP/1.1" 200 None
+19-17-2022 14:17:04 urllib3.connectionpool:DEBUG:Starting new HTTP connection (1): theory.people.com.cn:80
+19-17-2022 14:17:04 urllib3.connectionpool:DEBUG:http://theory.people.com.cn:80 "GET /n1/2017/1213/c40531-29703477.html HTTP/1.1" 200 None
+19-17-2022 14:17:04 urllib3.connectionpool:DEBUG:Starting new HTTP connection (1): theory.people.com.cn:80
+19-17-2022 14:17:04 urllib3.connectionpool:DEBUG:http://theory.people.com.cn:80 "GET /n1/2017/1211/c40531-29699215.html HTTP/1.1" 200 None
+19-17-2022 14:17:04 urllib3.connectionpool:DEBUG:Starting new HTTP connection (1): theory.people.com.cn:80
+19-17-2022 14:17:04 urllib3.connectionpool:DEBUG:http://theory.people.com.cn:80 "GET /n1/2017/1206/c40531-29690096.html HTTP/1.1" 200 7386
+19-17-2022 14:17:04 urllib3.connectionpool:DEBUG:Starting new HTTP connection (1): dangjian.people.com.cn:80
+19-17-2022 14:17:04 urllib3.connectionpool:DEBUG:http://dangjian.people.com.cn:80 "GET /n1/2017/1204/c415590-29684076.html HTTP/1.1" 200 None
+19-17-2022 14:17:04 urllib3.connectionpool:DEBUG:Starting new HTTP connection (1): theory.people.com.cn:80
+19-17-2022 14:17:05 urllib3.connectionpool:DEBUG:http://theory.people.com.cn:80 "GET /n1/2017/1201/c40531-29680106.html HTTP/1.1" 200 7051
+19-17-2022 14:17:05 urllib3.connectionpool:DEBUG:Starting new HTTP connection (1): theory.people.com.cn:80
+19-17-2022 14:17:05 urllib3.connectionpool:DEBUG:http://theory.people.com.cn:80 "GET /n1/2017/1201/c40531-29680097.html HTTP/1.1" 200 None
+19-17-2022 14:17:05 urllib3.connectionpool:DEBUG:Starting new HTTP connection (1): theory.people.com.cn:80
+19-17-2022 14:17:05 urllib3.connectionpool:DEBUG:http://theory.people.com.cn:80 "GET /n1/2017/1201/c40531-29680049.html HTTP/1.1" 200 None
+19-17-2022 14:17:05 urllib3.connectionpool:DEBUG:Starting new HTTP connection (1): theory.people.com.cn:80
+19-17-2022 14:17:05 urllib3.connectionpool:DEBUG:http://theory.people.com.cn:80 "GET /n1/2017/1130/c40531-29678229.html HTTP/1.1" 200 10087
+19-17-2022 14:17:05 urllib3.connectionpool:DEBUG:Starting new HTTP connection (1): theory.people.com.cn:80
+19-17-2022 14:17:06 urllib3.connectionpool:DEBUG:http://theory.people.com.cn:80 "GET /n1/2017/1128/c40531-29671502.html HTTP/1.1" 200 None
+19-17-2022 14:17:06 urllib3.connectionpool:DEBUG:Starting new HTTP connection (1): theory.people.com.cn:80
+19-17-2022 14:17:06 urllib3.connectionpool:DEBUG:http://theory.people.com.cn:80 "GET /n1/2017/1127/c40531-29670476.html HTTP/1.1" 200 None
+19-17-2022 14:17:06 urllib3.connectionpool:DEBUG:Starting new HTTP connection (1): cpc.people.com.cn:80
+19-17-2022 14:17:06 urllib3.connectionpool:DEBUG:http://cpc.people.com.cn:80 "GET /n1/2018/0312/c390643-29863083.html HTTP/1.1" 200 None
+19-17-2022 14:17:06 urllib3.connectionpool:DEBUG:Starting new HTTP connection (1): cpc.people.com.cn:80
+19-17-2022 14:17:06 urllib3.connectionpool:DEBUG:http://cpc.people.com.cn:80 "GET /n1/2018/0312/c389394-29862351.html HTTP/1.1" 200 None
+19-17-2022 14:17:06 urllib3.connectionpool:DEBUG:Starting new HTTP connection (1): cpc.people.com.cn:80
+19-17-2022 14:17:06 urllib3.connectionpool:DEBUG:http://cpc.people.com.cn:80 "GET /n1/2017/1123/c64102-29663567.html HTTP/1.1" 200 None
+19-17-2022 14:17:06 urllib3.connectionpool:DEBUG:Starting new HTTP connection (1): cpc.people.com.cn:80
+19-17-2022 14:17:06 urllib3.connectionpool:DEBUG:http://cpc.people.com.cn:80 "GET /n1/2017/1121/c64102-29658751.html HTTP/1.1" 200 None
+19-17-2022 14:17:06 urllib3.connectionpool:DEBUG:Starting new HTTP connection (1): cpc.people.com.cn:80
+19-17-2022 14:17:06 urllib3.connectionpool:DEBUG:http://cpc.people.com.cn:80 "GET /n1/2017/1219/c162854-29716881.html HTTP/1.1" 200 None
+19-17-2022 14:17:06 urllib3.connectionpool:DEBUG:Starting new HTTP connection (1): www.xinhuanet.com:80
+19-17-2022 14:17:07 urllib3.connectionpool:DEBUG:http://www.xinhuanet.com:80 "GET /politics/19cpcnc/2017-10/24/c_1121850218.htm HTTP/1.1" 200 17453
+19-17-2022 14:17:07 urllib3.connectionpool:DEBUG:Starting new HTTP connection (1): cpc.people.com.cn:80
+19-17-2022 14:17:07 urllib3.connectionpool:DEBUG:http://cpc.people.com.cn:80 "GET /19th/n1/2017/1022/c414305-29601329.html HTTP/1.1" 200 None
+19-17-2022 14:17:07 urllib3.connectionpool:DEBUG:Starting new HTTP connection (1): theory.people.com.cn:80
+19-17-2022 14:17:07 urllib3.connectionpool:DEBUG:http://theory.people.com.cn:80 "GET /n1/2018/1210/c40531-30453271.html HTTP/1.1" 200 None
+19-17-2022 14:17:07 urllib3.connectionpool:DEBUG:Starting new HTTP connection (1): theory.people.com.cn:80
+19-17-2022 14:17:07 urllib3.connectionpool:DEBUG:http://theory.people.com.cn:80 "GET /n1/2018/1123/c40531-30418740.html HTTP/1.1" 200 3342
+19-17-2022 14:17:07 urllib3.connectionpool:DEBUG:Starting new HTTP connection (1): theory.people.com.cn:80
+19-17-2022 14:17:07 urllib3.connectionpool:DEBUG:http://theory.people.com.cn:80 "GET /n1/2018/0706/c40531-30131269.html HTTP/1.1" 200 None
+19-17-2022 14:17:07 urllib3.connectionpool:DEBUG:Starting new HTTP connection (1): www.china.com.cn:80
+19-17-2022 14:17:08 urllib3.connectionpool:DEBUG:http://www.china.com.cn:80 "GET /news/2020-07/23/content_76303947.htm HTTP/1.1" 200 18191
+19-17-2022 14:17:08 urllib3.connectionpool:DEBUG:Starting new HTTP connection (1): news.cctv.com:80
+19-17-2022 14:17:08 urllib3.connectionpool:DEBUG:http://news.cctv.com:80 "GET /2019/03/19/ARTIVW6ByPO1YLVDgosbUFbU190319.shtml HTTP/1.1" 200 None
+19-17-2022 14:17:08 urllib3.connectionpool:DEBUG:Starting new HTTP connection (1): news.cctv.com:80
+19-17-2022 14:17:08 urllib3.connectionpool:DEBUG:http://news.cctv.com:80 "GET /2018/06/02/ARTImt1NiPtKDs9D3pCPryC3180602.shtml HTTP/1.1" 200 None
+19-17-2022 14:17:08 urllib3.connectionpool:DEBUG:Starting new HTTP connection (1): www.china.com.cn:80
+19-17-2022 14:17:08 urllib3.connectionpool:DEBUG:http://www.china.com.cn:80 "GET /19da/2017-10/18/content_41752492.htm HTTP/1.1" 200 13806
+19-17-2022 14:17:08 urllib3.connectionpool:DEBUG:Starting new HTTP connection (1): cpc.people.com.cn:80
+19-17-2022 14:17:08 urllib3.connectionpool:DEBUG:http://cpc.people.com.cn:80 "GET /n1/2018/0108/c390643-29752282.html HTTP/1.1" 200 None
+19-17-2022 14:17:08 urllib3.connectionpool:DEBUG:Starting new HTTP connection (1): theory.people.com.cn:80
+19-17-2022 14:17:09 urllib3.connectionpool:DEBUG:http://theory.people.com.cn:80 "GET /n1/2018/1228/c40531-30492467.html HTTP/1.1" 200 None
+19-17-2022 14:17:09 urllib3.connectionpool:DEBUG:Starting new HTTP connection (1): theory.people.com.cn:80
+19-17-2022 14:17:09 urllib3.connectionpool:DEBUG:http://theory.people.com.cn:80 "GET /n1/2018/0822/c413700-30244017.html HTTP/1.1" 200 6563
+19-17-2022 14:17:09 urllib3.connectionpool:DEBUG:Starting new HTTP connection (1): news.cctv.com:80
+19-17-2022 14:17:09 urllib3.connectionpool:DEBUG:http://news.cctv.com:80 "GET /2018/06/06/ARTIZTmy7tXsCGR3K05RpW0m180606.shtml HTTP/1.1" 200 None
+19-17-2022 14:17:09 urllib3.connectionpool:DEBUG:Starting new HTTP connection (1): cpc.people.com.cn:80
+19-17-2022 14:17:09 urllib3.connectionpool:DEBUG:http://cpc.people.com.cn:80 "GET /n1/2017/1122/c415067-29662120.html HTTP/1.1" 200 None
+19-17-2022 14:17:09 urllib3.connectionpool:DEBUG:Starting new HTTP connection (1): theory.people.com.cn:80
+19-17-2022 14:17:10 urllib3.connectionpool:DEBUG:http://theory.people.com.cn:80 "GET /n1/2018/0530/c40531-30021861.html HTTP/1.1" 200 17446
+19-17-2022 14:17:10 __main__:INFO:Finish content search in 7.466649293899536
+19-17-2022 14:17:12 __main__:INFO:Finish title processing in 2.757256031036377
+19-17-2022 14:17:18 __main__:INFO:Finish get keywords in 5.772790908813477
